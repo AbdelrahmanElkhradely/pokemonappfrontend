@@ -22,6 +22,8 @@ const App = () => {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
+        'Accept': 'application/json'
+
       },
     };
     const response = await fetch("/", requestOptions);
