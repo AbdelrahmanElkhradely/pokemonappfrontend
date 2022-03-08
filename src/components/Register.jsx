@@ -19,7 +19,7 @@ const Register = () => {
         'Accept': 'application/json' },
       body: JSON.stringify({ email: email, hashed_password: password }),
     };
-
+    console.log("1");
     const response = await fetch("/api/users", requestOptions);
     const data = await response.json();
 
