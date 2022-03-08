@@ -14,7 +14,9 @@ const Register = () => {
   const submitRegistration = async () => {
     const requestOptions = {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json" ,
+        'Accept': 'application/json' },
       body: JSON.stringify({ email: email, hashed_password: password }),
     };
 
