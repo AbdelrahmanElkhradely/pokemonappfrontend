@@ -18,7 +18,7 @@ const Login = () => {
       ),
     };
 
-    const response = await fetch("/api/token", requestOptions);
+    const response = await fetch("https://edvoracompanypokemonapp.herokuapp.com/api/token", requestOptions);
     console.log(response);
       try {
      const data = await response.json();
