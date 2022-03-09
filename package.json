@@ -43,7 +43,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://edvoracompanypokemonapp.herokuapp.com",
   "homepage": "https://AbdelrahmanElkhradely.github.io/pokemonappfrontend",
   "devDependencies": {
     "gh-pages": "^3.2.3"
