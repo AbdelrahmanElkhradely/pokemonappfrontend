@@ -20,7 +20,7 @@ const Register = () => {
       body: JSON.stringify({ email: email, hashed_password: password }),
     };
     console.log("1");
-    const response = await fetch("/api/users", requestOptions);
+    const response = await fetch("https://edvoracompanypokemonapp.herokuapp.com/api/users", requestOptions);
     const data = await response.json();
 
     if (!response.ok) {
